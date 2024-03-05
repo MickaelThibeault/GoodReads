@@ -80,6 +80,12 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
+        ],
+        "serve": [
+            "symfony serve -d"
+        ],
+        "tests": [
+            "symfony php bin/phpunit --coverage-html=var/coverage"
         ]
     },
     "conflict": {
