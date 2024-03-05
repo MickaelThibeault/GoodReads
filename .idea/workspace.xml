@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e2cd554-3782-4992-9408-e06afd86dedc" name="Changes" comment="Entitées, migration, tests unitaires">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5e2cd554-3782-4992-9408-e06afd86dedc" name="Changes" comment="Entitées, migration, tests unitaires" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,7 +236,7 @@
       <workItem from="1709654501480" duration="1198000" />
       <workItem from="1709659541156" duration="96000" />
       <workItem from="1709659694178" duration="327000" />
-      <workItem from="1709669409807" duration="496000" />
+      <workItem from="1709669409807" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="Entitées, migration, tests unitaires">
       <option name="closed" value="true" />
@@ -258,7 +254,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709654763217</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Entitées, migration, tests unitaires">
+      <option name="closed" value="true" />
+      <created>1709669973811</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709669973811</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Entitées, migration, tests unitaires">
+      <option name="closed" value="true" />
+      <created>1709670027881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709670027881</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
