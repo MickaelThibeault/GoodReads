@@ -140,11 +140,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
     </include_path>
   </component>
-<<<<<<< HEAD
-=======
-  <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
-    <option name="suggestChangeDefaultLanguageLevel" value="false" />
-  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
@@ -156,5 +152,4 @@
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
->>>>>>> 738c09d5a52a97918004cb6a8e663dfa024bdb8c
 </project>
