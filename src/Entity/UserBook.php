@@ -35,6 +35,11 @@ class UserBook
     #[ORM\ManyToOne(inversedBy: 'userBooks')]
     private ?Status $status = null;
 
+    public function __toString(): string
+    {
+        return $this->getBook()->getTitle();
+    }
+
     public function getId(): ?int
     {
         return $this->id;
