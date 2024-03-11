@@ -26,7 +26,7 @@ class CreateAdminCommand extends Command
     protected function configure(): void
     {
         $this
-            ->addArgument('email', InputArgument::REQUIRED, 'Email of the admin user')
+            ->addArgument('contact', InputArgument::REQUIRED, 'Email of the admin user')
             ->addArgument('password', InputArgument::REQUIRED, 'Password of the admin user')
         ;
     }
@@ -34,7 +34,7 @@ class CreateAdminCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $io = new SymfonyStyle($input, $output);
-        $email = $input->getArgument('email');
+        $email = $input->getArgument('contact');
         $password = $input->getArgument('password');
 
         $this->adminService->create($email, $password);

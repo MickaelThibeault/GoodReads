@@ -23,7 +23,7 @@ class InvitationCrudController extends AbstractCrudController
     public function configureFields(string $pageName): iterable
     {
         return [
-            EmailField::new('email'),
+            EmailField::new('contact'),
             TextField::new('uuid')
                 ->hideWhenCreating(),
             AssociationField::new('reader')

@@ -48,7 +48,7 @@ class InvitationController extends AbstractController
 
             $this->entityManager->persist($user);
             $this->entityManager->flush();
-            // do anything else you need here, like send an email
+            // do anything else you need here, like send an contact
 
             return $this->redirectToRoute('admin');
         }

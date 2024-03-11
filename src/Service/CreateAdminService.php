@@ -19,7 +19,7 @@ class CreateAdminService
 
     public function create(string $email, string $password): void
     {
-        $user = $this->userRepository->findOneBy(['email'=>$email]);
+        $user = $this->userRepository->findOneBy(['contact'=>$email]);
 
         if (!$user) {
             $user = new User();
